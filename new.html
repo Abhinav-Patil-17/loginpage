@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<title></title>
+	<style type="text/css">
+    body {
+   /*background-image: linear-gradient(white, grey, white);*/
+   background-color: black;
+}
+	</style>
+</head>
+<body>
+	<section class="bg-black-50 dark:bg-black-900" >
+  <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+      
+      <div class="w-full bg-black rounded-tl-3xl rounded-br-3xl border-double   border-8 border-lime-200 md:mt-0 sm:max-w-md xl:p-0 dark:bg-black-500 ">
+          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 class="text-xl font-bold font-serif leading-tight tracking-tight text-white md:text-3xl dark:text-white">Get Register Yourself
+              </h1>
+              <form class="space-y-4 md:space-y-6" action="#">
+                  <div>
+                      <label for="email" class="block mb-2 text-xl font-medium font-serif text-white dark:text-white ">Your email</label>
+                      <input type="email" name="email" id="email" class="bg-white border-4 border-lime-200 dark:text-white dark:hover:text-lime-300 focus:ring-4 focus:outline-lime-200 focus:ring-lime-200 dark:focus:ring-lime-200 text-lime-500 sm:text-sm rounded-lg focus:ring-lime-200 focus:border-lime-200 block w-full p-2.5 dark:bg-lime-500 dark:border-lime-500 dark:placeholder-lime-500 dark:text-white dark:focus:ring-lime-500 dark:focus:border-lime-500 " placeholder="name@company.com" required="">
+                  </div>
+                  <div>
+                      <label for="password" class="block mb-2 text-xl font-medium font-serif text-white dark:text-white">Password</label>
+                      <input type="password" name="password" id="password" placeholder="••••••••" class="bg-white border-4 border-lime-200 dark:text-white dark:hover:text-lime-300 focus:ring-4 focus:outline-lime-200 focus:ring-lime-200 dark:focus:ring-lime-200 text-lime-500 sm:text-sm rounded-lg focus:ring-lime-200 focus:border-lime-200 block w-full p-2.5 dark:bg-lime-500 dark:border-lime-500 dark:placeholder-lime-500 dark:text-white dark:focus:ring-lime-500 dark:focus:border-lime-500" required="">
+                  </div>
+                  <div>
+                      <label for="confirm-password" class="block mb-2 text-xl font-medium font-serif text-white dark:text-white">Confirm password</label>
+                      <input type="password" name="password" id="confirm-password" placeholder="••••••••" class="bg-white border-4 border-lime-200 dark:text-white dark:hover:text-lime-300 focus:ring-4 focus:outline-lime-200 focus:ring-lime-200 dark:focus:ring-lime-200 text-lime-500 sm:text-sm rounded-lg focus:ring-lime-200 focus:border-lime-200 block w-full p-2.5 dark:bg-lime-500 dark:border-lime-500 dark:placeholder-lime-500 dark:text-white dark:focus:ring-lime-500 dark:focus:border-lime-500" required="">
+                  </div>
+                  <div class="flex items-start">
+                      <div class="flex items-center h-8">
+                        <input id="terms" aria-describedby="terms" type="checkbox" class="w-6 h-6 text-lime-600 bg-white border-black rounded focus:ring-lime-200 dark:focus:ring-lime-200 dark:ring-offset-black focus:ring-2 dark:bg-black-50 dark:border-black">
+                        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300" required="">
+                      </div>
+                      <div class="ml-3 text-xl">
+                        <label for="terms" class="font-light font-serif text-white dark:text-white">I accept the <a class="font-medium text-primary-600 hover:underline dark:text-primary-500" href="#">Terms and Conditions</a></label>
+                      </div>
+                  </div>
+                  <button type="submit" class="w-full  text-black bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Create an account</button>
+                  <p class="text-xl font-light font-serif text-white dark:text-white">
+                      Already have an account? <a href="#" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login here</a>
+                  </p>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+</body>
+</html>
